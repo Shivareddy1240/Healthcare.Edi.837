@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFrameworks>net8.0;netstandard2.0</TargetFrameworks>
+		<LangVersion>12</LangVersion>
+		<Nullable>enable</Nullable>
+		<ImplicitUsings>enable</ImplicitUsings>
+
+		<PackageId>Healthcare.Edi.837</PackageId>
+		<Version>1.0.0</Version>
+		<Authors>WE - With Everyone</Authors>
+		<Description>High-performance, streaming, extensible EDI 837P (X222A1) and 837I (X223A2) reader for HIPAA 5010. Strongly-typed models with batch support and easy extension for custom loops/segments.</Description>
+		<PackageTags>edi;hipaa;837;837p;837i;x12;healthcare;parsing</PackageTags>
+		<PackageLicenseExpression>MIT</PackageLicenseExpression>
+		<RepositoryUrl>https://github.com/shivareddy1240/Healthcare.Edi.837</RepositoryUrl>
+	</PropertyGroup>
+
+</Project>
