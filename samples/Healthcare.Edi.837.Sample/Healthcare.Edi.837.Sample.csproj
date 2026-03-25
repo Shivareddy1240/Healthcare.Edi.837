@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <ItemGroup>
-    <ProjectReference Include="..\..\src\Healthcare.Edi.837\Healthcare.Edi.837.csproj" />
+    <ProjectReference Include="..\..\src\Healthcare.Edi.837\Healthcare.Edi837.csproj" />
   </ItemGroup>
 
   <PropertyGroup>

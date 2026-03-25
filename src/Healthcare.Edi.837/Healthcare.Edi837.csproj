@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
 	<PropertyGroup>
-		<TargetFrameworks>net8.0;netstandard2.0</TargetFrameworks>
+		<TargetFrameworks>net8.0</TargetFrameworks>
 		<LangVersion>12</LangVersion>
 		<Nullable>enable</Nullable>
 		<ImplicitUsings>enable</ImplicitUsings>
@@ -14,5 +14,10 @@
 		<PackageLicenseExpression>MIT</PackageLicenseExpression>
 		<RepositoryUrl>https://github.com/shivareddy1240/Healthcare.Edi.837</RepositoryUrl>
 	</PropertyGroup>
+
+	<ItemGroup>
+	  <Folder Include="Enums\" />
+	  <Folder Include="Extensions\" />
+	</ItemGroup>
 
 </Project>
